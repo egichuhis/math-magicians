@@ -34,3 +34,7 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.ops-color {
+  background-color: #f5913e;
+}

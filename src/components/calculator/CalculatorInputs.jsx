@@ -11,7 +11,7 @@ const CalculatorInputs = () => (
     <button type="button">
       %
     </button>
-    <button type="button">
+    <button type="button" className="ops-color">
       /
     </button>
     <button type="button">
@@ -23,7 +23,7 @@ const CalculatorInputs = () => (
     <button type="button">
       9
     </button>
-    <button type="button">
+    <button type="button" className="ops-color">
       *
     </button>
     <button type="button">
@@ -35,7 +35,7 @@ const CalculatorInputs = () => (
     <button type="button">
       6
     </button>
-    <button type="button">
+    <button type="button" className="ops-color">
       -
     </button>
     <button type="button">
@@ -47,7 +47,7 @@ const CalculatorInputs = () => (
     <button type="button">
       3
     </button>
-    <button type="button">
+    <button type="button" className="ops-color">
       +
     </button>
     <button type="button">
@@ -59,7 +59,7 @@ const CalculatorInputs = () => (
     <button type="button">
       ^
     </button>
-    <button type="button">
+    <button type="button" className="ops-color">
       =
     </button>
   </div>
