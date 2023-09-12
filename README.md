@@ -54,7 +54,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Project setup with create-react-app and linters**
+- **Calculator component, Calculator UI**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
