@@ -2,6 +2,8 @@
 <div align="center">
    <img src="./src/imgs/logo.png" alt="logo" width="100"  height="auto" />
   <br/>
+   <img src="./src/imgs/2.png" alt="logo" width="100"  height="auto" />
+   <br/>
 </div>
 
 <!-- TABLE OF CONTENTS -->
