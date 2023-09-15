@@ -17,11 +17,9 @@ const Calculator = () => {
   };
 
   return (
-    <div>
-      <div className="calculator">
-        <CalculatorOutput calculatorData={calculatorData} />
-        <CalculatorInputs handleClick={handleClick} />
-      </div>
+    <div className="calculator">
+      <CalculatorOutput calculatorData={calculatorData} />
+      <CalculatorInputs handleClick={handleClick} />
     </div>
   );
 };
