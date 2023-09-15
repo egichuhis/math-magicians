@@ -10,7 +10,7 @@ const ShowQuotes = () => {
     const apiKey = process.env.REACT_APP_API_KEY;
 
     Swal.fire({
-      title: 'Fetching Quotes...',
+      title: 'Fetching Quote...',
       html: '<div class="sweet-alert-loading-spinner"><div class="spinner"></div></div>',
       allowOutsideClick: false,
       showConfirmButton: false,
