@@ -61,6 +61,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Calculator component, Calculator UI**
+- **Fetch Quotes from API and display them**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,8 +140,6 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculator app**
-- [ ] **Quotes page**
 - [ ] **Home Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
