@@ -4,10 +4,11 @@ import './quotes.css';
 
 const ShowQuotes = () => {
   const [quotes, setQuotes] = useState([]);
-  const apiUrl = 'https://api.api-ninjas.com/v1/quotes?limit=3';
-  const apiKey = 'cvQu/rHbmLKhr3CHnllmAw==EoBqdb2tgIkZMYyE';
 
   useEffect(() => {
+    const apiUrl = process.env.REACT_APP_API_URL;
+    const apiKey = process.env.REACT_APP_API_KEY;
+
     Swal.fire({
       title: 'Fetching Quotes...',
       html: '<div class="sweet-alert-loading-spinner"><div class="spinner"></div></div>',
