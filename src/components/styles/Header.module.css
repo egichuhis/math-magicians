@@ -5,16 +5,13 @@ nav {
 
 ul {
   display: flex;
-  justify-content: space-between;
-  gap: 40px;
   list-style: none;
 }
 
 li {
-  border: solid 1px grey;
-  padding: 10px;
-}
-
-li a {
-  text-decoration: none;
+  padding: 1px 10px;
+  border-right: solid 3px #708090;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
 }
