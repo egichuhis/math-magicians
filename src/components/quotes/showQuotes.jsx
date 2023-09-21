@@ -29,9 +29,9 @@ const ShowQuotes = () => {
       Swal.fire({
         icon: 'error',
         title: 'Error',
-        text: 'There was a problem with the fetch operation',
+        text: 'Could not fetch Quote, check your internet and reload page',
       });
-      throw new Error('Something wrong happened', error);
+      throw new Error('Oops!Check your internet and reload page', error);
     });
   }, []);
 
