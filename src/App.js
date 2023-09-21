@@ -1,28 +1,22 @@
-import { BrowserRoute, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Homepage';
 import Header from './components/layout/Header';
 import Calculator from './components/calculator/Calculator';
-import Quotes from './components/quotes/showQuotes';
+import Quote from './components/quote/showQuote';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <BrowserRoute>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
         <Routes>
-          <Route>
-            <Home />
-          </Route>
-          <Route>
-            <Calculator />
-          </Route>
-          <Route>
-            <Quotes />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
-      </BrowserRoute>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
