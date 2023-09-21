@@ -2,7 +2,11 @@
 <div align="center">
    <img src="./src/imgs/logo.png" alt="logo" width="100"  height="auto" />
   <br/>
-   <img src="./src/imgs/2.png" alt="logo" width="100"  height="auto" />
+   <img src="./src/imgs/home.png" alt="logo" width="600"  height="auto" />
+   <br/>
+   <img src="./src/imgs/calculator.png" alt="logo" width="600"  height="auto" />
+   <br/>
+   <img src="./src/imgs/quote.png" alt="logo" width="600"  height="auto" />
    <br/>
 </div>
 
@@ -60,8 +64,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Calculator component, Calculator UI**
-- **Fetch Quotes from API and display them**
+- **Home page**
+- **Calculator App**
+- **Show a random Quote, fetched from API**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +145,7 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Home Page**
+- [ ] **Deployment**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
