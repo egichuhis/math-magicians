@@ -54,7 +54,7 @@
   <summary>CSS</summary>
 </details>
 <details>
-  <summary>Jest</summary>
+  <summary>Jest & React Testing Library</summary>
 </details>
 <details>
   <summary>REST APIs</summary>
