@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 1px 10px;
+  border-right: solid 3px #708090;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
